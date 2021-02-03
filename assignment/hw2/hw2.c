@@ -1,15 +1,16 @@
 /*
-This homework requires you to develop a Linux kernel module including print hello world things and current time while inserting and quitting the module.
-This homework contains c file and Makefile, c file is to describe the module and Makefile is to launch it. 
+This homework requires you to develop a Linux kernel module including print hello world things and current
+time while inserting and quitting the module.
+This homework contains c file and Makefile, c file is to describe the module and Makefile is to launch it.
 */
 
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/time.h>
 
-MODULE_LICENSE("Dual BSD/GPL");   //Your should not to change the license
-MODULE_AUTHOR("Bryan_flx");       //Please modify this part or delete it 
-MODULE_DESCRIPTION("CS6233_hw2"); //Information about this module ok to delete it
+MODULE_LICENSE("Dual BSD/GPL");   //Your should not change the license
+MODULE_AUTHOR("Bryan_flx");       //Please modify this part or delete it
+MODULE_DESCRIPTION("CS6233_hw2"); //Information could be modified or deleted
 
 
 
